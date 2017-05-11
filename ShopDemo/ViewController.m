@@ -37,11 +37,11 @@
     [_btn setTitle:@"立即抢购" forState:UIControlStateNormal];
     [_btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     _btn.titleLabel.font = [UIFont boldSystemFontOfSize:15];
-    [_btn setBackgroundImage:[UIImage imageNamed:@"ButtonRedLarge"] forState:UIControlStateNormal];
+    _btn.backgroundColor = [UIColor redColor];
     [_btn addTarget:self action:@selector(startAnimation) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_btn];
     _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
-    _imageView.image = [UIImage imageNamed:@"TabCartSelected@2x.png"];
+    _imageView.image = [UIImage imageNamed:@"shouye_che_dj@3x.png"];
     _imageView.center = CGPointMake(270, 320);
     [self.view addSubview:_imageView];
     // label
@@ -70,7 +70,7 @@
     if (!layer) {
         _btn.enabled = NO;
         layer = [CALayer layer];
-        layer.contents = (__bridge id)[UIImage imageNamed:@"test01.jpg"].CGImage;
+        layer.contents = (__bridge id)[UIImage imageNamed:@"06.jpg"].CGImage;
         
         layer.contentsGravity = kCAGravityResizeAspectFill;
         layer.bounds = CGRectMake(0, 0, 50, 50);

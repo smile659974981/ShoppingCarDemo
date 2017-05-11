@@ -14,9 +14,8 @@
 		6B17B0B71B07814E0054B176 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B17B0B61B07814E0054B176 /* Images.xcassets */; };
 		6B17B0BA1B07814E0054B176 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B17B0B81B07814E0054B176 /* LaunchScreen.xib */; };
 		6B17B0C61B07814E0054B176 /* ShopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B17B0C51B07814E0054B176 /* ShopDemoTests.m */; };
-		6B17B0D11B07819A0054B176 /* TabCartSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B17B0CF1B07819A0054B176 /* TabCartSelected@2x.png */; };
-		6B17B0D21B07819A0054B176 /* test01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B17B0D01B07819A0054B176 /* test01.jpg */; };
-		6B8096EB1B1369580023A63E /* ButtonRedLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8096EA1B1369580023A63E /* ButtonRedLarge.png */; };
+		C9B7C6ED1EC41A9400B88703 /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9B7C6EB1EC41A9400B88703 /* 06.jpg */; };
+		C9B7C6EE1EC41A9400B88703 /* shouye_che_dj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B7C6EC1EC41A9400B88703 /* shouye_che_dj@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +42,8 @@
 		6B17B0BF1B07814E0054B176 /* ShopDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B17B0C41B07814E0054B176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B17B0C51B07814E0054B176 /* ShopDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopDemoTests.m; sourceTree = "<group>"; };
-		6B17B0CF1B07819A0054B176 /* TabCartSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabCartSelected@2x.png"; sourceTree = "<group>"; };
-		6B17B0D01B07819A0054B176 /* test01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test01.jpg; sourceTree = "<group>"; };
-		6B8096EA1B1369580023A63E /* ButtonRedLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonRedLarge.png; sourceTree = "<group>"; };
+		C9B7C6EB1EC41A9400B88703 /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpg; sourceTree = "<group>"; };
+		C9B7C6EC1EC41A9400B88703 /* shouye_che_dj@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye_che_dj@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +85,7 @@
 		6B17B0A81B07814E0054B176 /* ShopDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C9B7C6EA1EC41A9400B88703 /* image */,
 				6B17B0AD1B07814E0054B176 /* AppDelegate.h */,
 				6B17B0AE1B07814E0054B176 /* AppDelegate.m */,
 				6B17B0B01B07814E0054B176 /* ViewController.h */,
@@ -102,9 +101,6 @@
 		6B17B0A91B07814E0054B176 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6B8096EA1B1369580023A63E /* ButtonRedLarge.png */,
-				6B17B0CF1B07819A0054B176 /* TabCartSelected@2x.png */,
-				6B17B0D01B07819A0054B176 /* test01.jpg */,
 				6B17B0AA1B07814E0054B176 /* Info.plist */,
 				6B17B0AB1B07814E0054B176 /* main.m */,
 			);
@@ -126,6 +122,15 @@
 				6B17B0C41B07814E0054B176 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9B7C6EA1EC41A9400B88703 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C9B7C6EB1EC41A9400B88703 /* 06.jpg */,
+				C9B7C6EC1EC41A9400B88703 /* shouye_che_dj@3x.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,12 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B7C6EE1EC41A9400B88703 /* shouye_che_dj@3x.png in Resources */,
 				6B17B0B51B07814E0054B176 /* Main.storyboard in Resources */,
-				6B8096EB1B1369580023A63E /* ButtonRedLarge.png in Resources */,
-				6B17B0D11B07819A0054B176 /* TabCartSelected@2x.png in Resources */,
 				6B17B0BA1B07814E0054B176 /* LaunchScreen.xib in Resources */,
-				6B17B0D21B07819A0054B176 /* test01.jpg in Resources */,
 				6B17B0B71B07814E0054B176 /* Images.xcassets in Resources */,
+				C9B7C6ED1EC41A9400B88703 /* 06.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
